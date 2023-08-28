@@ -1,0 +1,14 @@
+{
+  "users": [
+  ],
+  "product": [
+    {
+      "id":1,
+      "img":"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-14255312109651.jpg%3Fv%3D1619100296&w=256&q=75",
+      "title":"Twist And Shout Fadeproof Kajal",
+      "dis":"",
+      "category":"eye",
+      "price":355
+    }
+  ]
+}
