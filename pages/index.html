@@ -5,40 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sugar cosmetics</title>
     <link rel="stylesheet" href="/style/all.min.css">
-    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/bootstrap-icons.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="row align justifly">
-                <div class="sugar flex justifly-between">
-                    <div class="logo">
-                        <img src="/logo/Sugar.jpg" alt="">
-                    </div>
-                    <div class="icon">
-                            <i class="fa-solid fa-circle-user" style="color: #fcfcfd;"></i>
-                            <i class="fa-regular fa-heart" style="color: #fcfcfc;"></i>
-                            <i class="fa-solid fa-bag-shopping" style="color: #f7f9fc;"></i>
-                            <i class="fa-solid fa-snowflake" style="color: #f5f5f5;"></i>
-                    </div>
-                </div>
+    
+    <header class="bg-black text-light">
+        <nav class="navbar justify-content-between navbar-expand-lg bg-body-tertiary bg-black">
+            <div class="container-fluid">
+                <img src="/logo/Sugar.jpg" style="width: 150px;" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 bg-dark" style="width: 500px;" type="search" placeholder="Try 'Liquid Lipstick' " aria-label="Search">
+                  <button class="btn bg-light" type="submit"> Search</button>
+                </form>
+              </div>
+              <div class="login text-light">
+                <i class="fa-regular fa-user"></i>
+              </div>
+              <div class="icon text-light">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <i class="fa-solid fa-snowflake"></i>
+              </div>
             </div>
-        </div>
-        <nav>
-            <ul class="row">
-                <li><a href="">NAILS</a></li>
-                <li><a href="">LIPS</a></li>
-                <li><a href="">EYES</a></li>
-                <li><a href="">FACE</a></li>
-                <li><a href="">SKINCARE</a></li>
-                <li><a href="">OFFERS</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">STORES</a></li>
-                <li><a href="">BESTSELLERS</a></li>
-                <li><a href="">GIFT&KITS</a></li>
-            </ul>
         </nav>
     </header>
+    <nav class="bg-dark p-2">
+
+        <div class="container">
+            <!-- <ul class="d-flex justify-content-between">
+                <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Link
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                  </li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">EYES</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">FACE</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">SKINCARE</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">NAILS</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">OFFERS</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">BLOG</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">STORES</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">BESTSELLERS</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">ACCESORIES</a></li>
+                <li class="list-unstyled"><a class="text-decoration-none text-light" href="">GIFTS & KITS</a></li>
+            </ul> -->
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar scroll</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Link
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Link</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </nav>
+
+    <!-- banner section  -->
+    <div class="banner">
+        <div class="cotainer">
+            <div class="img">
+                <img src="/img/image.webp" alt="" style="width: 100%;">
+            </div>
+        </div>
+    </div>
 </body>
 <script type="module" src="/js/index.js"></script>
 </html>
