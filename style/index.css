@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.p-80{
+    padding: 80px 0;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -13,11 +16,6 @@
 } */
 
 /* header  */
-p{
-    color: aliceblue;
-    background-color: rgb(180, 147, 63);
-    text-align: center;
-}
 header{
     background-color: black;
 }
@@ -77,4 +75,33 @@ button{
     padding: 0 15px;
     margin: auto;
     background-color: aliceblue;
+}
+
+
+
+
+/* product section  */
+.head h4{
+    position: relative;
+}
+.head h4::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    top: 14px;
+    right: 450px;
+    background-color: red;
+}
+.head h4::before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    top: 14px;
+    left: 450px;
+    background-color: red;
+}
+.bg-2{
+    background-image: url(https://media.sugarcosmetics.com/upload/VTOBackgroungTexture.png);
 }
