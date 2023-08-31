@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +10,41 @@
     <link rel="stylesheet" href="/style/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/style/login.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="row flex">
-            <div class="w-50">
-                <img src="/img/authSIe2.jpg" alt="">
-            </div>
+    <section class="l-bg">
+        <div class="d-flex align-items-center">
+                <div class="w-50">
+                    <img src="/img/authSIe2.jpg" alt="">
+                </div>
+                <div class="w-50">
+                    <div class="box">
+                        <h2>LOGIN FORM</h2>
+                    <div class="form">
+                        <form id="form">
+                            <div class="form-control">
+                                <label>Email</label>
+                                <input type="email" placeholder="enter email" id="email" autocomplete="off">
+                                <small id="useremail"></small>
+                            </div>
+                            <div class="form-control">
+                                <label>Password</label>
+                                <input type="password" placeholder="enter password" id="password" autocomplete="off">
+                                <small id="userpassword"></small>
+                            </div>
+                            <div class="form-control">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                    <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis atque laboriosam animi ut voluptate! Aut doloribus, placeat mollitia deserunt necessitatibus consequuntur ab expedita. Ipsa, magnam. Sequi illum quaerat placeat voluptatem.</p>
+                   
+                    </div>
+                </div>
+
         </div>
-    </div>
+    </section>
 </body>
 <script type="module" src="/js/login.js"></script>
+
 </html>

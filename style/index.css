@@ -38,7 +38,7 @@ nav ul li{
 
 }
 nav{
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(54, 53, 53);
     padding: 15px;
 }
 a{
@@ -76,5 +76,5 @@ button{
     box-sizing: border-box;
     padding: 0 15px;
     margin: auto;
-    background-color: aliceblue;
+    background-color: rgb(9, 9, 9);
 }
