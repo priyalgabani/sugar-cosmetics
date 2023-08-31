@@ -202,3 +202,83 @@ body{
 .img1{
     background-image: url(../img/youtube.webp);
 }
+.element {
+    text-align: center; 
+    position: relative; 
+  }
+  
+  .element::after {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    right: 480px;
+    background-color:red; 
+    transform: translateX(-50%); 
+  }
+  .element::before {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    left: 550px;
+    background-color:red; 
+    transform: translateX(-80%); 
+  }
+  
+  .PICKS {
+    text-align: center; 
+    position: relative; 
+  }
+  
+  .PICKS::after {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    right: 400px;
+    background-color:red; 
+    transform: translateX(-80%); 
+  }
+  .PICKS::before {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    left: 470px;
+    background-color:red; 
+    transform: translateX(-50%); 
+  }
+  .BEAUTY {
+    text-align: center; 
+    position: relative; 
+  }
+  
+  .BEAUTY::after {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    right: 400px;
+    background-color:red; 
+    transform: translateX(-80%); 
+  }
+  .BEAUTY::before {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    left: 470px;
+    background-color:red; 
+    transform: translateX(-50%); 
+  }
+
+  .padding-5 {
+    padding: 50px 10px 5px 10px!important;
+}
