@@ -3,14 +3,15 @@ document.getElementById('navbar').innerHTML=Navbar();
 
 const login = (e) => {
     e.preventDefault();
-    let email = document.getElementById('email').value;
-    let password= document.getElementById('password').value;
+    let users = {
+        email : document.getElementById('email').value,
+        password: document.getElementById('password').value}
 
-    fetch(`http://localhost:3000/users?email=${email}`)
+    fetch(`http://localhost:3000/users?email=${users.email}`)
     .then((res)=>res.json())
     .then((data)=>{
         if(data.length > 0){
-            if(data[0].password === password){
+            if(data[0].password === users.password){
                 localStorage.setItem("loggin",true)
                 alert("login success")
                 setTimeout(() => {
@@ -29,7 +30,7 @@ const login = (e) => {
 
 }
 
-document.getElementById('form').addEventListener('submit', login);
+document.getElementById('form').addEventListener('submit', ()=> login());
 
 
 
