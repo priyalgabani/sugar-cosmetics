@@ -36,7 +36,7 @@ nav ul li{
 
 }
 nav{
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(54, 53, 53);
     padding: 15px;
 }
 a{
@@ -74,34 +74,5 @@ button{
     box-sizing: border-box;
     padding: 0 15px;
     margin: auto;
-    background-color: aliceblue;
-}
-
-
-
-
-/* product section  */
-.head h4{
-    position: relative;
-}
-.head h4::after{
-    position: absolute;
-    content: "";
-    width: 100px;
-    height: 3px;
-    top: 14px;
-    right: 450px;
-    background-color: red;
-}
-.head h4::before{
-    position: absolute;
-    content: "";
-    width: 100px;
-    height: 3px;
-    top: 14px;
-    left: 450px;
-    background-color: red;
-}
-.bg-2{
-    background-image: url(https://media.sugarcosmetics.com/upload/VTOBackgroungTexture.png);
+    background-color: rgb(9, 9, 9);
 }

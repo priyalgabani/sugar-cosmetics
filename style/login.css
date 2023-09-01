@@ -3,6 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
-.w-50{
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.l-bg{
+    background-image: url(../img/loginPageBackGroundTexture.jpeg);
     width: 100%;
+    height: 100bh;
+    background-repeat: no-repeat;
+}
+h2{
+    text-align: center;
+    color: rgb(165, 44, 44);
+    padding: 20px;
+}
+.form{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#usedata{
+    background: linear-gradient(90deg,rgba(3, 44, 52, 0.353) 0%,rgba(9, 9, 121, 0.212)  79%);
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px 40px;
+    border: 2px solid rgba(54, 51, 51, 0.449);
+}
+#form{
+    background: linear-gradient(90deg,rgba(165, 142, 67, 0.353) 0%,rgba(46, 46, 56, 0.212)  79%);
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px 40px;
+    border: 2px solid rgba(12, 12, 12, 0.449);
+}
+.form-control{
+    margin-bottom: 15px;
+}
+.form-control label{
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.form-control input{
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-top: 8px;
+    outline: none;
+    border: 2px solid rgb(127, 33, 33);
+}
+.form-control input:focus{
+    border: 2px solid #242222;
+
+}
+.form-control small{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.form-control small p{
+    visibility: hidden;
+}
+img{
+    width: 800px;
+    height: 800px;
 }
