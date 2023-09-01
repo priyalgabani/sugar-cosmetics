@@ -1,6 +1,30 @@
 #product img{
     width: 200px;
+    height: 220px;
+    margin-left: px;
+    margin-top: 20px;
+}
+.btn{
+    padding: 8px 12px;
 }
 #heart{
     color: red;
+}
+#product{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#product .div{
+   box-shadow: 0 0 10px rgba(95, 95, 95, 0.626);
+   border-radius: 10px;
+    margin: 8px;
+    width: 350px;
+    height: 450px;
+    line-height: 50px;
+}
+#product h3{
+font-size: 12.8px;
+margin-top: 10px;
+justify-content: center;
 }

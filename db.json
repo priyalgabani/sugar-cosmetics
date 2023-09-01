@@ -1,22 +1,455 @@
 {
-  "users": [
-  ],
+  "users": [],
   "product": [
     {
-      "id":1,
-      "img":"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-14255312109651.jpg%3Fv%3D1619100296&w=256&q=75",
-      "title":"Twist And Shout Fadeproof Kajal",
-      "dis":"",
-      "category":"eye",
-      "price":355
+      "id": 1,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-14255312109651.jpg%3Fv%3D1619100296&w=256&q=75",
+      "title": "Twist And Shout Fadeproof Kajal",
+      "del": "399",
+      "category": "eye",
+      "price": 355,
+      "off":"(11% off)"
     },
     {
-      "id":2,
-      "img":"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-eye-lit-you-so-vivid-eyeliner-01-pink-sphinx-bright-pink-27939452452947.jpg%3Fv%3D1619153599&w=256&q=75",
-      "title":"Twist And Shout Fadeproof Kajal",
-      "dis":"",
-      "category":"eye",
-      "price":399
+      "id": 2,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-eye-lit-you-so-vivid-eyeliner-01-pink-sphinx-bright-pink-27939452452947.jpg%3Fv%3D1619153599&w=256&q=75",
+      "title": "Twist And Shout Fadeproof Kajal",
+      "del": "",
+      "category": "eye",
+      "price": 399,
+      "off":""
+    },
+    {
+      "id": 3,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F1_559451a2-6760-4e09-af3a-299c9064d6e4.jpg%3Fv%3D1688225879&w=256&q=75",
+      "title": "Matte As Hell Crayon Lipstick - 04 Holly Golightly (Nude)",
+      "del": 849,
+      "category": "lips",
+      "price": 714,
+      "off":"(16% Off)"
+    },
+    {
+      "id": 4,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FSeal-The-Show-Lip-Primer-PDP-Images.jpg%3Fv%3D1690904074&w=256&q=75",
+      "title": "Seal The Show Lip Primer",
+      "del": "",
+      "category": "lips",
+      "price": 649,
+      "off":""
+    },
+    {
+      "id": 5,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-lash-mob-limitless-mascara-01-black-with-a-bang-6968327995475.png%3Fv%3D1619100307&w=256&q=75",
+      "title": "Lash Mob Limitless Mascara",
+      "del": "",
+      "category": "eye",
+      "price": "849",
+      "off":""
+    },
+    {
+      "id": 6,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F1_f4313267-b648-4ac5-86a3-6c37f14b42bc.jpg%3Fv%3D1685634287&w=256&q=75",
+      "title": "Uptown Curl Lengthening Mascara - 01 Black Beauty (Black)",
+      "del": "",
+      "category": "eye",
+      "price": "549",
+      "off":""
+    },
+    {
+      "id": 7,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FPARENT.jpg%3Fv%3D1693284474&w=256&q=75",
+      "title": "Blend The Rules Eyeshadow Palette",
+      "del": "1199",
+      "category": "eye",
+      "price": "1043",
+      "off":"(13% Off)"
+    },
+    {
+      "id": 8,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F1_2b6dc649-ec63-447d-9f16-6f1ca95abe22.jpg%3Fv%3D1688227942&w=256&q=75",
+      "title": "Tip Tac Toe Nail Lacquer Classic - 02 Break On Blue",
+      "del": "",
+      "category": "nails",
+      "price": "199",
+      "off":""
+    },
+    {
+      "id": 9,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F1_fbfc437e-feca-4554-b884-2c5c092ad3b9.jpg%3Fv%3D1682956204&w=256&q=75",
+      "title": "Swipe Right Cleansing Water",
+      "del": "",
+      "category": "skin",
+      "price": "449",
+      "off":""
+    },
+    {
+      "id": 10,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-citrus-got-real-daily-moisturizer-28038347292755.jpg%3Fv%3D1619155748&w=256&q=75",
+      "title": "Citrus Got Real Daily Moisturizer",
+      "del": "499",
+      "category": "skin",
+      "price": "444",
+      "off":"(11% Off)"
+    },
+    {
+      "id": 11,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FCCLipScrubWBG-3.jpg%3Fv%3D1628610315&w=256&q=75",
+      "title": "Coffee Culture Lip Scrub",
+      "del": "299",
+      "category": "lips",
+      "price": "225",
+      "off":"(25% Off)"
+    },
+    {
+      "id": 12,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/3_7.jpg?v=1626795160",
+      "title": "All Set To Go Translucent Powder",
+      "del": "599",
+      "category": "face",
+      "price": "546",
+      "off":"(9% Off)"
+    },
+    {
+      "id": 13,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-contour-de-force-highlighter-palette-01-glow-genius-12788198572115.jpg%3Fv%3D1619106971&w=256&q=75",
+      "title": "Contour De Force Highlighter Palette - 01 Glow Genius",
+      "del": "799",
+      "category": "face",
+      "price": "711",
+      "off":"(11% Off)"
+    },
+    {
+      "id": 14,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FCCEyeFirmingCreamWBG-3.jpg%3Fv%3D1628610287&w=256&q=75",
+      "title": "Coffee Culture Eye Firming Cream",
+      "del": "399",
+      "category": "skin",
+      "price": "299",
+      "off":"(25% Off)"
+    },
+    {
+      "id": 15,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-drop-the-base-serum-foundation-10959991767123.jpg%3Fv%3D1619107852&w=256&q=75",
+      "title": "Drop The Base Serum Foundation",
+      "del": "",
+      "category": "face",
+      "price": "899",
+      "off":""
+    },
+    {
+      "id": 16,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-goddess-of-flawless-spf30-bb-cream-07-vanilla-latte-fair-12796432941139.jpg%3Fv%3D1619114695&w=256&q=75",
+      "title": "Goddess Of Flawless BB Cream",
+      "del": "",
+      "category": "face",
+      "price": "799",
+      "off":""
+    },
+    {
+      "id": 17,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F1_60cc1098-8915-43f8-af4d-5cefef35d1f7.jpg%3Fv%3D1688228039&w=256&q=75",
+      "title": "Tip Tac Toe Nail Lacquer Classic - 08 Sacred Sage",
+      "del": "",
+      "category": "nails",
+      "price": "199",
+      "off":""
+    },
+    {
+      "id": 18,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F1_2bb6c19e-fbde-45dd-8e1f-bf8fdd488ef8.jpg%3Fv%3D1688227990&w=256&q=75",
+      "title": "Tip Tac Toe Nail Lacquer Classic - 05 Social Sepia",
+      "del": "",
+      "category": "nails",
+      "price": "199",
+      "off":""
+    },
+    {
+      "id": 19,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F1_9f3c0dcc-2c90-48ab-bd83-19a97516096b.jpg%3Fv%3D1688227973&w=256&q=75",
+      "title": "Tip Tac Toe Nail Lacquer Classic - 04 Purple Passion",
+      "del": "",
+      "category": "nails",
+      "price": "199",
+      "off":""
+    },
+    {
+      "id": 20,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FMousseMuseMaskproofLipCreamPDPimages-1080x1080-1TO5SHADES1_ce6b7369-5604-4eed-bde3-baa0a76e2c8c.jpg%3Fv%3D1685637335&w=256&q=75",
+      "title": "Mousse Muse Maskproof Lip Cream - 04 Water Lillies",
+      "del": "",
+      "category": "lips",
+      "price": "599",
+      "off":""
+    },
+    {
+      "id": 21,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FMousseMuseMaskproofLipCreamPDPimages-1080x1080-1TO5SHADES1_7f23decc-e02a-4776-a62a-c4b9d9d67b50.jpg%3Fv%3D1680367162&w=256&q=75",
+      "title": "Mousse Muse Maskproof Lip Cream - 01 Backlit Nude",
+      "del": "",
+      "category": "lips",
+      "price": "599",
+      "off":""
+    },
+    {
+      "id": 22,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-mettle-satin-lipstick-01-sophie-bright-fuchsia-pink-fuchsia-13706258088019.jpg%3Fv%3D1619116113&w=256&q=75",
+      "title": "Mettle Satin Lipstick",
+      "del": "",
+      "category": "lips",
+      "price": "1049",
+      "off":""
+    },
+    {
+      "id": 23,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-charcoal-patrol-bubble-mask-12775750500435.jpg%3Fv%3D1644399394&w=256&q=75",
+      "title": "Charcoal Patrol Bubble Mask",
+      "del": "149",
+      "category": "skin",
+      "price": "112",
+      "off":"(25% Off)"
+    },
+    {
+      "id": 24,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fmoisturiser.jpg%3Fv%3D1626968292&w=256&q=75",
+      "title": "Aquaholic Priming Moisturizer",
+      "del": "",
+      "category": "face",
+      "price": "499",
+      "off":""
+    },
+    {
+      "id": 25,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FCoffee-culture-cleansing-balm-stick-01.jpg%3Fv%3D1643375708&w=256&q=75",
+      "title": "Coffee Culture Cleansing Balm Stick",
+      "del": "699",
+      "category": "face",
+      "price": "524",
+      "off":"(25% Off)"
+    },
+    {
+      "id": 26,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-arrested-for-overstay-waterproof-eyeliner-01-i-ll-be-black-black-12784884973651.jpg%3Fv%3D1619101912&w=256&q=75",
+      "title": "Arrested For Overstay Waterproof Eyeliner - 01 I'll Be Black (Black)",
+      "del": "899",
+      "category": "eye",
+      "price": "782",
+      "off":"(13% Off)"
+    },
+    {
+      "id": 27,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-dual-sharpener-11771532378195.jpg%3Fv%3D1619109046&w=256&q=75",
+      "title": "Dual Sharpener",
+      "del": "",
+      "category": "acc",
+      "price": "99",
+      "off":""
+    },
+    {
+      "id": 28,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F1CREATIVEIMAGE01.jpg%3Fv%3D1639496051&w=256&q=75",
+      "title": "Born To Wing Gel Eyeliner",
+      "del": "",
+      "category": "eye",
+      "price": "649",
+      "off":""
+    },
+    {
+      "id": 29,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FNail-lacquer-wbg-set-of-2-01_1.jpg%3Fv%3D1688228673&w=256&q=75",
+      "title": "Tip Tac Toe Nail Lacquer - Classic Duo",
+      "del": "398",
+      "category": "nails",
+      "price": "349",
+      "off":"(12% Off)"
+    },
+    {
+      "id": 30,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FBlend-Trend-WBG-images-13.jpg%3Fv%3D1627659977&w=256&q=75",
+      "title": "Blend Trend Dual Eyeshadow Brush - 413 Flat + Round Xl",
+      "del": "599",
+      "category": "acc",
+      "price": "533",
+      "off":"(11% Off)"
+    },
+    {
+      "id": 31,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FBlendTrendFoundationBrush-052Kabuki.jpg%3Fv%3D1627573664&w=256&q=75",
+      "title": "Blend Trend Foundation Brush - 052 Kabuki",
+      "del": "",
+      "category": "acc",
+      "price": "499",
+      "off":""
+    },
+    {
+      "id": 32,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/files/1_5913a695-7d75-428d-8adc-afbd9223e8f5.jpg?v=1692891862",
+      "title": "Blend The Rules Eyeshadow Palette - 08 Reflection (Galactic Glitter)",
+      "del": "",
+      "category": "eye",
+      "price": "1249",
+      "off":""
+    },
+    {
+      "id": 33,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FNail-lacquer-wbg-set-of-2-01_1_15f46366-eac0-4c3c-a3f8-304c867ed6cf.jpg%3Fv%3D1688228680&w=256&q=75",
+      "title": "Tip Tac Toe Nail Lacquer - Chic Contrast Duo",
+      "del": "398",
+      "category": "nails",
+      "price": "349",
+      "off":"(12% Off)"
+    },
+    {
+      "id": 34,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/MatteAttackTransferproofLipstickPDPimagesFinal1_69d5588b-1de2-4670-a95a-cd96d96ea5e9.jpg?v=1682957481",
+      "title": "Matte Attack Transferproof Lipstick - 05 Tan Halen (Chocolate Brown)",
+      "del": "749",
+      "category": "lips",
+      "price": "682",
+      "off":"(9% Off)"
+    },
+    {
+      "id": 35,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/files/1_f10c7405-7dbf-4632-968e-5f95ee670f0d.jpg?v=1685634859",
+      "title": "Blend The Rules Eyeshadow Palette - 02 Warrior (Smokey)",
+      "del": "",
+      "category": "eye",
+      "price": "1199",
+      "off":""
+    },
+    {
+      "id": 36,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-cheat-sheet-clarifying-mask-12775754203219.jpg?v=1619113702",
+      "title": "Cheat Sheet Clarifying Mask",
+      "del": "",
+      "category": "face",
+      "price": "99",
+      "off":""
+    },
+    {
+      "id": 37,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FBlendTrendFaceBrush-006Highlighter.jpg%3Fv%3D1627660002&w=256&q=75",
+      "title": "Blend Trend Face Brush - 006 Highlighter",
+      "del": "399",
+      "category": "acc",
+      "price": "355",
+      "off":"(11% Off)"
+    },
+    {
+      "id": 38,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FMain-Image.jpg2.jpg%3Fv%3D1688226911&w=256&q=75",
+      "title": "Eye Talk Value Set",
+      "del": "924",
+      "category": "eye",
+      "price": "599",
+      "off":"(35% Off)"
+    },
+    {
+      "id": 39,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_7d841b67-e5a8-4be9-8679-37259a311f4f.jpg?v=1682956127",
+      "title": "Longwear Lipstick - 08 Berry Picking (Berry)",
+      "del": "599",
+      "category": "lips",
+      "price": "546",
+      "off":"(9% Off)"
+    },
+    {
+      "id": 40,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FBlendTrendFaceBrush-003Contour.jpg%3Fv%3D1627659996&w=256&q=75",
+      "title": "Blend Trend Face Brush - 003 Contour",
+      "del": "399",
+      "category": "acc",
+      "price": "355",
+      "off":"(11% Off)"
+    },
+    {
+      "id": 41,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-arch-arrival-brow-powder-14753953644627.jpg?v=1619120283",
+      "title": "Arch Arrival Brow Powder",
+      "del": "499",
+      "category": "face",
+      "price": "434",
+      "off":"(13% Off)"
+    },
+    {
+      "id": 42,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/MatteAttackTransferproofLipstickPDPimagesFinal1_e21836f5-69f2-47f9-b5c9-8515047d1ece.jpg?v=1682957407",
+      "title": "Matte Attack Transferproof Lipstick - 01 Boldplay (Cardinal Pink",
+      "del": "749",
+      "category": "lips",
+      "price": "682",
+      "off":"(9% Off)"
+    },
+    {
+      "id": 43,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/Clarifying-Primer.jpg?v=1666886745",
+      "title": "SUGAR Prime Sublime Primer - Clarifying",
+      "del": "499",
+      "category": "face",
+      "price": "434",
+      "off":"(13% Off)"
+    },
+    {
+      "id": 44,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_d630526f-38ae-49ba-8b9c-2191391c3f14.jpg?v=1680623387",
+      "title": "Ace Of Face Foundation Stick - 15 Cappuccino (Light Cool - Undertone)",
+      "del": "999",
+      "category": "face",
+      "price": "940",
+      "off":"(6% Off)"
+    },
+    {
+      "id": 45,
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/MatteAttackTransferproofLipstickPDPimagesFinal1_aa98e0fa-b9d1-494c-954a-d515bfd221a8.jpg?v=1682957562",
+      "title": "Matte Attack Transferproof Lipstick - 10 Depeach Mode (Peach)",
+      "del": "749",
+      "category": "lips",
+      "price": "682",
+      "off":"(9% Off)"
+    },
+    {
+      "id": 46,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-stroke-of-genius-heavy-duty-kohl-sharpener-28122615218259.jpg%3Fv%3D1619100864&w=256&q=75",
+      "title": "Stroke Of Genius Heavy-duty Kohl Sharpener",
+      "del": "",
+      "category": "acc",
+      "price": "99",
+      "off":""
+    },
+    {
+      "id": 47,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FArch-Arrival-Brow-Pen-PDP-images-1080x1080_Parent-Page.jpg%3Fv%3D1685636497&w=256&q=75",
+      "title": "Arch Arrival Brow Pen",
+      "del": "499",
+      "category": "eye",
+      "price": "455",
+      "off":"(9% Off)"
+    },
+    {
+      "id": 48,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-face-fwd-blush-stick-01-coral-climax-bright-coral-13825375273043.jpg%3Fv%3D1619116614&w=256&q=75",
+      "title": "Face Fwd >> Blush Stick",
+      "del": "799",
+      "category": "face",
+      "price": "695",
+      "off":"(13% Off)"
+    },
+    {
+      "id": 49,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F1_a45c529b-34f5-45ef-89ff-47223d76acc2.jpg%3Fv%3D1685635601&w=256&q=75",
+      "title": "Tipsy Lips Moisturizing Balm - 04 L.I.I.T",
+      "del": "199",
+      "category": "lips",
+      "price": "188",
+      "off":"(6% Off)"
+    },
+    {
+      "id": 50,
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FCCBrighteningSerumWBG-3.jpg%3Fv%3D1628610327&w=256&q=75",
+      "title": "Coffee Culture Brightening Serum",
+      "del": "499",
+      "category": "skin",
+      "price": "420",
+      "off":"(16% Off)"
     }
   ]
 }
