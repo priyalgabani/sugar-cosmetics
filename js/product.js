@@ -6,27 +6,42 @@ let show = (data) => {
         img.src = ele.img;
 
         let title = document.createElement("h3");
+        title.setAttribute("class","row justify-content-center")
         title.innerHTML = ele.title;
 
-        let category = document.createElement("p");
-        category.innerHTML = ele.category;
-        category.setAttribute("class", "category")
+        let div1=document.createElement("div")
+
+        let del=document.createElement("del")
+        del.innerHTML=ele.del
 
         let price = document.createElement("p");
         price.innerHTML = `Rs.${ele.price}`;
+        price.setAttribute("class","fw-bold")
+
+        let off=document.createElement("span")
+        off.innerHTML=ele.off
+        off.setAttribute("class","text-danger")
+
+        div1.append(del,price,off)
+        div1.setAttribute("class","d-flex justify-content-center gap-5")
 
         let i = document.createElement("i");
         i.classList.add('fas', 'fa-heart')
 
         let btn = document.createElement("button");
         btn.append(i)
+        btn.setAttribute("class", "btn border me-2")
 
         let btn1 = document.createElement("button");
-        btn1.innerHTML = "BUY NOW";
-        btn1.setAttribute("class", "btn1")
+        btn1.innerHTML = "ADD TO BAG";
+        btn1.setAttribute("class", "btn bg-black text-light border-2 ps-5 pe-5 ")
+        
+        let div2=document.createElement("div")
+        div2.append(btn,btn1)
 
         let div = document.createElement("div");
-        div.append(img, title, category, price, btn, btn1);
+        div.append(img, title,div1, div2);
+        div.setAttribute("class","div")
         document.getElementById("product").append(div);
 
         btn.addEventListener("click", () => {
@@ -73,3 +88,29 @@ let products = []
 fetch(" http://localhost:3000/product")
     .then((response) => response.json())
     .then((data) => { products = data, show(data) });
+
+
+document.getElementById("lips").addEventListener("click",()=>{
+    let data=products.filter((value)=>value.category=="lips")
+    show(data)
+})
+
+document.getElementById("eyes").addEventListener("click",()=>{
+    let data=products.filter((value)=>value.category=="eye")
+    show(data)
+})
+
+document.getElementById("face").addEventListener("click",()=>{
+    let data=products.filter((value)=>value.category=="face")
+    show(data)
+})
+
+document.getElementById("skin").addEventListener("click",()=>{
+    let data=products.filter((value)=>value.category=="skin")
+    show(data)
+})
+
+document.getElementById("nails").addEventListener("click",()=>{
+    let data=products.filter((value)=>value.category=="nails")
+    show(data)
+})
