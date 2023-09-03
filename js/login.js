@@ -1,16 +1,20 @@
+import Navbar from "../components/header.js";
+
+document.getElementById("navbar").innerHTML=Navbar()
+
 const login=(e)=>{
     e.preventDefault();
-    let users={
+    let user={
         email: document.getElementById("email").value,
         password: document.getElementById("password").value
     };
-    fetch(`http://localhost:3000/users?email=${email.users}`)
+    fetch(`http://localhost:3000/users?email=${user.email}`)
     .then((res)=>res.json())
     .then((data)=>{
-        if(data.lentgh >0){
-            if(data[0].password===users.password){
+        if(data.length>0){
+            if(data[0].password===user.password){
                 alert("login succes full")
-                window.location="/pages/index.html"
+                window.location="./signup.html"
             }
             else{
                 alert("enter the correct password")
@@ -24,4 +28,5 @@ const login=(e)=>{
 
 
 
-document.getElementById("form").addEventListener("sumbit", login)
+document.getElementById("login").addEventListener("submit", login)
+

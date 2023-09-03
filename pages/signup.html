@@ -20,29 +20,35 @@
                 <div class="w-50">
                     <div class="box">
                         <h2>LOGIN FORM</h2>
-                    <div class="form">
-                        <form id="login">
-                            <div class="form-control">
+                    <div class="form" >
+                        <form id="form">
+                            <div class="form-control" style="padding:20px; margin: 10px;">
+                                <label>Name</label>
+                                <input type="name" placeholder="enter name" id="name" autocomplete="off">
+                                <small id="useremail"></small>
+                            </div>
+                            <div class="form-control" style="padding:20px; margin: 10px;">
                                 <label>Email</label>
                                 <input type="email" placeholder="enter email" id="email" autocomplete="off">
                                 <small id="useremail"></small>
                             </div>
-                            <div class="form-control">
+                            <div class="form-control" style="padding:20px; margin: 10px;">
                                 <label>Password</label>
                                 <input type="password" placeholder="enter password" id="password" autocomplete="off">
                                 <small id="userpassword"></small>
                             </div>
-                            <div class="form-control">
+                            <div class="form-control" style="padding:20px; margin: 10px;">
                                 <input type="submit" id="submit" value="Submit">
                             </div>
                         </form>
                     </div>
-                   
+                    
+                    </div>
+                    <h5 class="" style="margin-left: 70px; width: 500px;">By Signing up or logging in, you agree to our <span class="text-danger">Terms and Conditions</span></h5>
                 </div>
 
         </div>
-        <div class="navbar"></div>
     </section>
 </body>
-<script type="module" src="/js/login.js"></script>
+<script type="module" src="/js/signup.js"></script>
 </html>

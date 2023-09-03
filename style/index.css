@@ -10,10 +10,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-/* .container{
-    max-width: 1140px;
-    margin: auto;
-} */
 
 /* header  */
 header{
@@ -46,10 +42,10 @@ ul,ol{
     list-style: none;
 }
 .icon i{
-    margin: 20px 0;
-    padding: 20px;
-    width: 100px;
-    padding-left: 50px;
+    /* margin: 20px 0; */
+    /* padding: 20px; */
+    /* width: 100px; */
+    padding-left: 30px;
 }
 .flex{
     display: flex;

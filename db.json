@@ -1,8 +1,24 @@
 {
   "users": [
-    
+    {
+      "name": "tanvi",
+      "email": "maniya@gamil.com",
+      "password": "wefwe",
+      "id": 1
+    },
+    {
+      "name": "wefwe",
+      "email": "maniy@gmail.com",
+      "password": "rtywhjsdwuehiwkdjkd",
+      "id": 2
+    },
+    {
+      "name": "wfdyqwkd",
+      "email": "maniyawwdw@gmail.com",
+      "password": "rtywhjsdwuehiwkdjkd",
+      "id": 3
+    }
   ],
-
   "product": [
     {
       "id": 1,
@@ -11,7 +27,7 @@
       "del": "399",
       "category": "eye",
       "price": 355,
-      "off":"(11% off)"
+      "off": "(11% off)"
     },
     {
       "id": 2,
@@ -20,7 +36,7 @@
       "del": "",
       "category": "eye",
       "price": 399,
-      "off":""
+      "off": ""
     },
     {
       "id": 3,
@@ -29,7 +45,7 @@
       "del": 849,
       "category": "lips",
       "price": 714,
-      "off":"(16% Off)"
+      "off": "(16% Off)"
     },
     {
       "id": 4,
@@ -38,7 +54,7 @@
       "del": "",
       "category": "lips",
       "price": 649,
-      "off":""
+      "off": ""
     },
     {
       "id": 5,
@@ -47,7 +63,7 @@
       "del": "",
       "category": "eye",
       "price": "849",
-      "off":""
+      "off": ""
     },
     {
       "id": 6,
@@ -56,7 +72,7 @@
       "del": "",
       "category": "eye",
       "price": "549",
-      "off":""
+      "off": ""
     },
     {
       "id": 7,
@@ -65,7 +81,7 @@
       "del": "1199",
       "category": "eye",
       "price": "1043",
-      "off":"(13% Off)"
+      "off": "(13% Off)"
     },
     {
       "id": 8,
@@ -74,7 +90,7 @@
       "del": "",
       "category": "nails",
       "price": "199",
-      "off":""
+      "off": ""
     },
     {
       "id": 9,
@@ -83,7 +99,7 @@
       "del": "",
       "category": "skin",
       "price": "449",
-      "off":""
+      "off": ""
     },
     {
       "id": 10,
@@ -92,7 +108,7 @@
       "del": "499",
       "category": "skin",
       "price": "444",
-      "off":"(11% Off)"
+      "off": "(11% Off)"
     },
     {
       "id": 11,
@@ -101,7 +117,7 @@
       "del": "299",
       "category": "lips",
       "price": "225",
-      "off":"(25% Off)"
+      "off": "(25% Off)"
     },
     {
       "id": 12,
@@ -110,7 +126,7 @@
       "del": "599",
       "category": "face",
       "price": "546",
-      "off":"(9% Off)"
+      "off": "(9% Off)"
     },
     {
       "id": 13,
@@ -119,7 +135,7 @@
       "del": "799",
       "category": "face",
       "price": "711",
-      "off":"(11% Off)"
+      "off": "(11% Off)"
     },
     {
       "id": 14,
@@ -128,7 +144,7 @@
       "del": "399",
       "category": "skin",
       "price": "299",
-      "off":"(25% Off)"
+      "off": "(25% Off)"
     },
     {
       "id": 15,
@@ -137,7 +153,7 @@
       "del": "",
       "category": "face",
       "price": "899",
-      "off":""
+      "off": ""
     },
     {
       "id": 16,
@@ -146,7 +162,7 @@
       "del": "",
       "category": "face",
       "price": "799",
-      "off":""
+      "off": ""
     },
     {
       "id": 17,
@@ -155,7 +171,7 @@
       "del": "",
       "category": "nails",
       "price": "199",
-      "off":""
+      "off": ""
     },
     {
       "id": 18,
@@ -164,7 +180,7 @@
       "del": "",
       "category": "nails",
       "price": "199",
-      "off":""
+      "off": ""
     },
     {
       "id": 19,
@@ -173,7 +189,7 @@
       "del": "",
       "category": "nails",
       "price": "199",
-      "off":""
+      "off": ""
     },
     {
       "id": 20,
@@ -182,7 +198,7 @@
       "del": "",
       "category": "lips",
       "price": "599",
-      "off":""
+      "off": ""
     },
     {
       "id": 21,
@@ -191,7 +207,7 @@
       "del": "",
       "category": "lips",
       "price": "599",
-      "off":""
+      "off": ""
     },
     {
       "id": 22,
@@ -200,7 +216,7 @@
       "del": "",
       "category": "lips",
       "price": "1049",
-      "off":""
+      "off": ""
     },
     {
       "id": 23,
@@ -209,7 +225,7 @@
       "del": "149",
       "category": "skin",
       "price": "112",
-      "off":"(25% Off)"
+      "off": "(25% Off)"
     },
     {
       "id": 24,
@@ -218,7 +234,7 @@
       "del": "",
       "category": "face",
       "price": "499",
-      "off":""
+      "off": ""
     },
     {
       "id": 25,
@@ -227,7 +243,7 @@
       "del": "699",
       "category": "face",
       "price": "524",
-      "off":"(25% Off)"
+      "off": "(25% Off)"
     },
     {
       "id": 26,
@@ -236,7 +252,7 @@
       "del": "899",
       "category": "eye",
       "price": "782",
-      "off":"(13% Off)"
+      "off": "(13% Off)"
     },
     {
       "id": 27,
@@ -245,7 +261,7 @@
       "del": "",
       "category": "acc",
       "price": "99",
-      "off":""
+      "off": ""
     },
     {
       "id": 28,
@@ -254,7 +270,7 @@
       "del": "",
       "category": "eye",
       "price": "649",
-      "off":""
+      "off": ""
     },
     {
       "id": 29,
@@ -263,7 +279,7 @@
       "del": "398",
       "category": "nails",
       "price": "349",
-      "off":"(12% Off)"
+      "off": "(12% Off)"
     },
     {
       "id": 30,
@@ -272,7 +288,7 @@
       "del": "599",
       "category": "acc",
       "price": "533",
-      "off":"(11% Off)"
+      "off": "(11% Off)"
     },
     {
       "id": 31,
@@ -281,7 +297,7 @@
       "del": "",
       "category": "acc",
       "price": "499",
-      "off":""
+      "off": ""
     },
     {
       "id": 32,
@@ -290,7 +306,7 @@
       "del": "",
       "category": "eye",
       "price": "1249",
-      "off":""
+      "off": ""
     },
     {
       "id": 33,
@@ -299,7 +315,7 @@
       "del": "398",
       "category": "nails",
       "price": "349",
-      "off":"(12% Off)"
+      "off": "(12% Off)"
     },
     {
       "id": 34,
@@ -308,7 +324,7 @@
       "del": "749",
       "category": "lips",
       "price": "682",
-      "off":"(9% Off)"
+      "off": "(9% Off)"
     },
     {
       "id": 35,
@@ -317,7 +333,7 @@
       "del": "",
       "category": "eye",
       "price": "1199",
-      "off":""
+      "off": ""
     },
     {
       "id": 36,
@@ -326,7 +342,7 @@
       "del": "",
       "category": "face",
       "price": "99",
-      "off":""
+      "off": ""
     },
     {
       "id": 37,
@@ -335,7 +351,7 @@
       "del": "399",
       "category": "acc",
       "price": "355",
-      "off":"(11% Off)"
+      "off": "(11% Off)"
     },
     {
       "id": 38,
@@ -344,7 +360,7 @@
       "del": "924",
       "category": "eye",
       "price": "599",
-      "off":"(35% Off)"
+      "off": "(35% Off)"
     },
     {
       "id": 39,
@@ -353,7 +369,7 @@
       "del": "599",
       "category": "lips",
       "price": "546",
-      "off":"(9% Off)"
+      "off": "(9% Off)"
     },
     {
       "id": 40,
@@ -362,7 +378,7 @@
       "del": "399",
       "category": "acc",
       "price": "355",
-      "off":"(11% Off)"
+      "off": "(11% Off)"
     },
     {
       "id": 41,
@@ -371,7 +387,7 @@
       "del": "499",
       "category": "face",
       "price": "434",
-      "off":"(13% Off)"
+      "off": "(13% Off)"
     },
     {
       "id": 42,
@@ -380,7 +396,7 @@
       "del": "749",
       "category": "lips",
       "price": "682",
-      "off":"(9% Off)"
+      "off": "(9% Off)"
     },
     {
       "id": 43,
@@ -389,7 +405,7 @@
       "del": "499",
       "category": "face",
       "price": "434",
-      "off":"(13% Off)"
+      "off": "(13% Off)"
     },
     {
       "id": 44,
@@ -398,7 +414,7 @@
       "del": "999",
       "category": "face",
       "price": "940",
-      "off":"(6% Off)"
+      "off": "(6% Off)"
     },
     {
       "id": 45,
@@ -407,7 +423,7 @@
       "del": "749",
       "category": "lips",
       "price": "682",
-      "off":"(9% Off)"
+      "off": "(9% Off)"
     },
     {
       "id": 46,
@@ -416,7 +432,7 @@
       "del": "",
       "category": "acc",
       "price": "99",
-      "off":""
+      "off": ""
     },
     {
       "id": 47,
@@ -425,7 +441,7 @@
       "del": "499",
       "category": "eye",
       "price": "455",
-      "off":"(9% Off)"
+      "off": "(9% Off)"
     },
     {
       "id": 48,
@@ -434,7 +450,7 @@
       "del": "799",
       "category": "face",
       "price": "695",
-      "off":"(13% Off)"
+      "off": "(13% Off)"
     },
     {
       "id": 49,
@@ -443,7 +459,7 @@
       "del": "199",
       "category": "lips",
       "price": "188",
-      "off":"(6% Off)"
+      "off": "(6% Off)"
     },
     {
       "id": 50,
@@ -452,7 +468,7 @@
       "del": "499",
       "category": "skin",
       "price": "420",
-      "off":"(16% Off)"
+      "off": "(16% Off)"
     }
   ]
 }
