@@ -1,38 +1,27 @@
-import Navbar from "../components/nav.js";
-document.getElementById('navbar').innerHTML=Navbar();
-
-const login = (e) => {
+const login=(e)=>{
     e.preventDefault();
-    let users = {
-        email : document.getElementById('email').value,
-        password: document.getElementById('password').value}
-
-    fetch(`http://localhost:3000/users?email=${users.email}`)
+    let users={
+        email: document.getElementById("email").value,
+        password: document.getElementById("password").value
+    };
+    fetch(`http://localhost:3000/users?email=${email.users}`)
     .then((res)=>res.json())
     .then((data)=>{
-        if(data.length > 0){
-            if(data[0].password === users.password){
-                localStorage.setItem("loggin",true)
-                alert("login success")
-                setTimeout(() => {
-                    window.location.href = "/pages/index.html"
-                },1000)
+        if(data.lentgh >0){
+            if(data[0].password===users.password){
+                alert("login succes full")
+                window.location="/pages/index.html"
             }
             else{
-                alert("login invalid")
+                alert("enter the correct password")
             }
         }
         else{
-            alert("user not found");
-        }
+            alert("user can not acces")
+          }
     })
-    
-
 }
 
-document.getElementById('form').addEventListener('submit', ()=> login());
 
 
-
-
-
+document.getElementById("form").addEventListener("sumbit", login)

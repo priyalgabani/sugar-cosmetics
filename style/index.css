@@ -58,7 +58,13 @@ ul,ol{
 .justifly-between{
     justify-content: space-between;
 }
+/* product section  */
 
+.sell{
+    background-image: url(https://media.sugarcosmetics.com/upload/app_install_background.png);
+    height: 100%;
+    width: 100%;
+}
 /* banner section  */
 img{
     width: 100%;
@@ -76,3 +82,182 @@ button{
     margin: auto;
     background-color: rgb(9, 9, 9);
 }
+
+body{
+    font-family: 'Roboto';
+}
+.padding-80{
+    padding: 80px 0px;
+}
+.img2{
+    background-image: url(https://in.sugarcosmetics.com/desc-images/Rectangle_background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.input-news {
+    position: relative;
+  }
+.input-news input {
+    padding: 10px 0px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.445) !important;
+    width: 580px;
+    height: 44px;
+    border-radius: 8px 0px 0px 8px;
+    margin-left: -113px;
+    padding-left: 15px;
+}
+.input-news .input-btn {
+    position: absolute;
+    padding: 11px 50px !important;
+    /* right: 20%; */
+    color: white;
+    background-color: black !important;
+    border-radius: 0px 9px 9px 0px;
+}
+.footer-img{
+    width: 100px;
+}
+@media screen and (max-width:575px){
+    .map-img{
+     height: 300px;
+     width: 300px;
+    }
+    .footer-box{
+     margin: 30px 0px;
+    }
+    .icon-footer-box{
+     margin: 30px 0;
+    }
+    .main-box{
+     margin: 20px 0px;
+    }
+    .navbar-nav{
+     background-color: black;
+     padding: 25px;
+    }
+ 
+ }
+ @media (min-width:575px) and (max-width:767px) {
+     .footer-box{
+         margin: 30px 0px;
+        }
+        .icon-footer-box{
+         margin: 30px 0;
+        }
+        .main-box{
+         margin: 20px 0px;
+        }
+        .navbar-nav{
+         background-color: black;
+         padding: 25px;
+        }
+ }
+ .footer-icon {
+    height: 35px;
+    width: 35px;
+    line-height: 40px;
+    background-color: rgba(230, 224, 224, 0.678);
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px 10px;
+
+    &:hover {
+        background-color: #ffffffce;
+        color: rgb(0, 0, 0);
+        transform: rotate(360deg);
+    }
+}
+.ft{
+    text-align: center;
+}
+.horizontal{
+    width: 100%;
+
+    border: 1px solid white;
+}
+/* .img1{
+    background-image: url(https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/28c860ae-4b26-4cbb-a7b7-738003317725.jpg&w=1920&q=75);
+} */
+
+.element {
+    text-align: center; 
+    position: relative; 
+  }
+  
+  .element::after {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    right: 480px;
+    background-color:red; 
+    transform: translateX(-50%); 
+  }
+  .element::before {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    left: 550px;
+    background-color:red; 
+    transform: translateX(-80%); 
+  }
+  
+  .PICKS {
+    text-align: center; 
+    position: relative; 
+  }
+  
+  .PICKS::after {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    right: 400px;
+    background-color:red; 
+    transform: translateX(-80%); 
+  }
+  .PICKS::before {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    left: 470px;
+    background-color:red; 
+    transform: translateX(-50%); 
+  }
+  .BEAUTY {
+    text-align: center; 
+    position: relative; 
+  }
+  
+  .BEAUTY::after {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    right: 400px;
+    background-color:red; 
+    transform: translateX(-80%); 
+  }
+  .BEAUTY::before {
+    position: absolute; 
+    content: "";
+    width: 50px; 
+    height: 2px;
+    top: 70px;
+    left: 470px;
+    background-color:red; 
+    transform: translateX(-50%); 
+  }
+
+  .padding-5 {
+    padding: 50px 10px 5px 10px!important;
+}
+
