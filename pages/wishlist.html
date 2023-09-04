@@ -1,21 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="/style/all.min.css">
+    <link rel="stylesheet" href="/style/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/product.css">
+    <link rel="stylesheet" href="/style/fonts.css">
+    <style>
+        .wishlist {
+            margin: 70px 0;
+        }
 
+        .main-div {
+            box-shadow: 0 0 10px rgba(95, 95, 95, 0.626);
+            border-radius: 10px;
+            margin: 8px;
+            width: 350px;
+            height: 450px;
+        }
+
+        #wish img {
+            width: 200px;
+            height: 220px;
+            margin-left: px;
+            margin-top: 20px;
+        }
+
+        #wish h3 {
+            font-size: 20px;
+        }
+
+        #wish {
+
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 8px;
+        }
+    </style>
 </head>
+
 <body>
-    <div id="nav"></div>
-    <div class="cart">
-        <div id="cartpage"></div>
-            <div id="btn">
-                <div id="other">
-                    <div id="price"></div>
-                </div>
+    <div id="navbar"></div>
+    <div class="wishlist">
+        <div id="wish"></div>
+        <div id="btn">
+            <div id="other">
             </div>
+        </div>
     </div>
+    <div id="footer"></div>
     <script type="module" src="../js/wishlist.js"></script>
 </body>
+
 </html>

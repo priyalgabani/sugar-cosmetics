@@ -4,6 +4,9 @@
     margin-left: px;
     margin-top: 20px;
 }
+.p-80{
+    padding: 80px 0;
+}
 .btn{
     padding: 8px 12px;
 }

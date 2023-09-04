@@ -1,3 +1,5 @@
-import Navbar from "../components/header.js";
+import navbar from "../components/header.js";
+document.getElementById("navbar").innerHTML= navbar
 
-document.getElementById("navbar").innerHTML=Navbar()
+import footer from "../components/footer.js";
+document.getElementById("footer").innerHTML= footer

@@ -1,3 +1,8 @@
+import navbar from "../components/header.js";
+document.getElementById("navbar").innerHTML=navbar
+
+import footer from "../components/footer.js";
+document.getElementById("footer").innerHTML = footer
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 let totalprice = 0;
@@ -27,13 +32,16 @@ let show = (cart) => {
 
         let minse = document.createElement("button");
         minse.innerHTML = "-";
+        minse.setAttribute("class","btn border")
 
         let noq = document.createElement("button");
         noq.innerHTML = ele.qty;
+        noq.setAttribute("class","btn border")
 
         let plus = document.createElement("button");
         plus.innerHTML = "+";
-
+        plus.setAttribute("class","btn border")
+        
         imgdiv.append(image);
         texts.append(title, price1);
         plusminse.append(minse, noq, plus);
@@ -73,12 +81,14 @@ show(cart);
 
 let show2 = () => {
     let maindiv2 = document.createElement("div");
-
+    
     let lable2 = document.createElement("p");
     lable2.innerHTML = "TOTAL PRICE:";
-
+    
     let btn2 = document.createElement("button");
     btn2.innerHTML = "Check Out"
+    btn2.setAttribute("class","btn border bg-black text-light")
+    btn2.setAttribute("id","btn")
 
     let disprice = document.createElement("p")
 
@@ -93,3 +103,6 @@ let show2 = () => {
 show2();
 
 
+document.getElementById("btn").addEventListener("click",()=>{
+    alert("CHECK OUT")
+})

@@ -94,6 +94,6 @@ let show = (data) => {
 
 let products = []
 
-fetch("http://localhost:3000/product?category=nails")
+fetch("http://localhost:3000/product?category=eye")
     .then((response) => response.json())
     .then((data) => { products = data, show(data) });
