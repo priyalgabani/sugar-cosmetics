@@ -1,0 +1,30 @@
+        .cart {
+            margin: 70px 0;
+        }
+
+        .main-div {
+            box-shadow: 0 0 10px rgba(95, 95, 95, 0.626);
+            border-radius: 10px;
+            margin: 8px;
+            width: 350px;
+            height: 450px;
+        }
+
+        #cartpage img {
+            width: 200px;
+            height: 220px;
+            margin-left: px;
+            margin-top: 20px;
+        }
+
+        #cartpage h3 {
+            font-size: 20px;
+        }
+
+        #cartpage {
+
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 8px;
+        }

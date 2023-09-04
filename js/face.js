@@ -1,11 +1,3 @@
-import navbar from "../components/header.js";
-
-document.getElementById("navbar").innerHTML=navbar
-
-import footer from "../components/footer.js";
-document.getElementById("footer").innerHTML = footer
-
-
 let show = (data) => {
     document.getElementById("product").innerHTML = "";
     data.map((ele) => {
@@ -94,6 +86,6 @@ let show = (data) => {
 
 let products = []
 
-fetch("http://localhost:3000/product?category=nails")
+fetch("http://localhost:3000/product?category=face")
     .then((response) => response.json())
     .then((data) => { products = data, show(data) });

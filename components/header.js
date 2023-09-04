@@ -1,15 +1,15 @@
-const Navbar =()=>{
-    return` <header class="bg-black text-light">
+const navbar = () => {
+  return ` <header class="bg-black text-light">
     <nav class="navbar justify-content-between navbar-expand-lg bg-body-tertiary bg-black">
         <div class="container-fluid">
-            <img src="/logo/Sugar.jpg" style="width:200px;" alt="">
+            <img src="https://entrackr.com/storage/2022/03/Sugar.jpg" style="width:200px;" alt="">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <form class="d-flex" role="search">
-              <input class="form-control me-2 bg-dark text-white p-3" style="width: 600px;" type="search" placeholder="Try 'Liquid Lipstick' " aria-label="Search">
-              <button class="btn bg-light text-black" type="submit"> Search</button>
+              <input class="form-control me-2 bg-dark text-white p-3" id="search" style="width: 600px;" type="search" placeholder="Try 'Liquid Lipstick' " aria-label="Search">
+              <button class="btn bg-light text-black" id="search-btn" type="submit"> Search</button>
             </form>
           </div>
           <div class=" text-light">
@@ -19,8 +19,8 @@ const Navbar =()=>{
            </ul>
           </div>
           <div class="icon text-light">
-            <i class="fa-regular fa-heart fs-5"></i>
-            <i class="fa-solid fa-bag-shopping fs-5"></i>
+            <a href="../pages/wishlist.html" class="text-light"><i class="fa-regular fa-heart fs-5"></i></a>
+            <a href="../pages/cart.html" class="text-light"><i class="fa-solid fa-bag-shopping fs-5"></i></a>
             <i class="fa-solid fa-snowflake fs-5"></i>
           </div>
         </div>
@@ -34,32 +34,35 @@ const Navbar =()=>{
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2" >
+        <li class="nav-item">
+        <a class="nav-link active fw-bold" aria-current="page" href="../pages/product.html">PRODUCTS</a>
+      </li>
           <li class="nav-item ">
-            <a class="nav-link active fw-bold" aria-current="page" href="lipstick.html">LIPS</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="../pages/lips.html" id="lips">LIPS</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active fw-bold" aria-current="page" href="../pages/eye.html" id="eyes">EYES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active fw-bold" aria-current="page" href="foundation.html">FACE</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="../pages/face.html" id="face">FACE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active fw-bold" aria-current="page" href="nails.html">NAILS</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="../pages/nails.html" id="nails">NAILS</a>
           </li>
           <li class="nav-item">
-           <a class="nav-link active fw-bold" aria-current="page" href="skin.html">SKIN</a>
+           <a class="nav-link active fw-bold" aria-current="page" href="../pages/skin.html" id="skin">SKIN</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active fw-bold" aria-current="page" href="skincare.html">SKINCARE</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="../pages/skincare.html">SKINCARE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active fw-bold" aria-current="page" href="offers.html">OFFERS</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="../pages/offers.html">OFFERS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active fw-bold" aria-current="page" href="seller.html">SELLER</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="../pages/seller.html">SELLER</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active fw-bold" aria-current="page" href="gift&kits.html">GIFT&KITS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active fw-bold" aria-current="page" href="blog.html">BLOG</a>
+            <a class="nav-link active fw-bold" aria-current="page" href="../pages/blog.html">BLOG</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link active fw-bold" aria-current="page" href="#">STORE</a>
@@ -69,4 +72,4 @@ const Navbar =()=>{
     </div>
   </nav>`
 }
-export default Navbar
+export default navbar()

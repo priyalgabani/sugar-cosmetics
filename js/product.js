@@ -1,3 +1,9 @@
+import footer from "../components/footer.js";
+import navbar from "../components/header.js";
+
+document.getElementById("navbar").innerHTML= navbar
+document.getElementById("footer").innerHTML= footer
+
 let show = (data) => {
     document.getElementById("product").innerHTML = "";
     data.map((ele) => {
@@ -83,34 +89,22 @@ let show = (data) => {
 
     });
 };
+
 let products = []
 
 fetch(" http://localhost:3000/product")
     .then((response) => response.json())
     .then((data) => { products = data, show(data) });
 
-
-document.getElementById("lips").addEventListener("click",()=>{
-    let data=products.filter((value)=>value.category=="lips")
-    show(data)
+const find=()=>{
+    let value=document.getElementById("search").value
+    let data=ui.filter((val)=>val.name.includes(value.toUppercase()))
+    console.log(data)
+    console.log(value)
+}
+document.getElementById("search").addEventListener("keypress",()=>{
+    if(e.key=="Enter"){
+        find()
+    }
 })
-
-document.getElementById("eyes").addEventListener("click",()=>{
-    let data=products.filter((value)=>value.category=="eye")
-    show(data)
-})
-
-document.getElementById("face").addEventListener("click",()=>{
-    let data=products.filter((value)=>value.category=="face")
-    show(data)
-})
-
-document.getElementById("skin").addEventListener("click",()=>{
-    let data=products.filter((value)=>value.category=="skin")
-    show(data)
-})
-
-document.getElementById("nails").addEventListener("click",()=>{
-    let data=products.filter((value)=>value.category=="nails")
-    show(data)
-})
+document.getElementById("search-btn").addEventListener("click",find)
